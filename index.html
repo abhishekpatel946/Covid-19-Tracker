@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <title>Covid-19 STATS</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Image goes here">
+            <p>Covid-19 STATS</p>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About</a> </li>
+            </ll>
+        </nav>
+    </header>
+
+    <main>
+        <div class="stats">
+            <div class="latest-report">
+                <div class="country">
+                    <div class="name">Loading...</div>
+                    <div class="change-country">change</div>
+                    <div class="search-country hide">
+                        <div class="search-box">
+                            <input type="text"  id="search-input" placeholder="Search Country...">
+                            <img class="close" src="./img/close.svg" alt="close">
+                        </div>
+                        <div class="country-list">
+                            <ul class="country-list">
+
+                               <!-- <li id="list-0">US</li>
+                               <li id="list-1">India</li>
+                               <li id="list-2">Russia</li> -->
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="total-cases">
+                        <div class="title"> Total Cases </div>
+                        <div class="value">0</div>
+                        <div class="new-value">+0</div>
+                </div>
+                <div class="recovered">
+                        <div class="title"> Recover </div>
+                        <div class="value">0</div>
+                        <div class="new-value">+0</div>
+                </div>
+                <div class="total deaths">
+                        <div class="title"> Deaths </div>
+                        <div class="value">0</div>
+                        <div class="new-value">+0</div>
+                </div>
+            </div>
+            <div class="chart">
+                <canvas id="axes_line_chart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="copyright">
+                <p>Copyright © 2020 Abhishek Patel </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Scripts add'ons -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script src="./js/countries.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
