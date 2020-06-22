@@ -8,7 +8,7 @@ Covid-19 STATS based on geolocation IP. Total Cases, Recovered and Deaths are dr
 
 ### Cloning:
 ```
-git clone https://github.com/abhishekpatel946/
+git clone https://github.com/abhishekpatel946/Covid-19-Tracker
 ```
 
 ### Running:
