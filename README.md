@@ -1,6 +1,7 @@
 # Covid-19 STATS
 
 Copyright 2020 Covid-19 STATS
+
 Written by: * **Abhishek Patel** - (https://github.com/abhishekpatel946)
 
 Covid-19 STATS based on geolocation IP. Total Cases, Recovered and Deaths are draw using linear chart.
@@ -47,7 +48,7 @@ index.html
 + Kali Linux - ROLLING
 
 ### Screenshot:
-![Shot](https://github.com/abhishekpatel946/)
+![Shot](https://github.com/abhishekpatel946/Covid-19-Tracker/blob/master/Screens/Screen-01.png)
 
 More in [Screens](Screens)
 
